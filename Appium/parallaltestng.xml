@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+	  <parameter name="deviceName" value="iQOO Z5"></parameter>
+	  <parameter name="udid" value="1367872601000BB"></parameter>
+	   <parameter name="port" value="4723"></parameter>
+    <classes>
+      <class name="Practice.lunchAppiumServer"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test2">
+	   <parameter name="deviceName" value="Redmi vinay"></parameter>
+	  <parameter name="udid" value="60c00d9d"></parameter>
+	  	   <parameter name="port" value="4723"></parameter>
+
+    <classes>
+      <class name="Practice.lunchAppiumServer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
